@@ -1,0 +1,6 @@
+<script>
+    document.forms[0].onsubmit = function demo () {
+    var pass = document.forms[0].elements[1].value;
+    alert(pass);
+    }
+</script>
